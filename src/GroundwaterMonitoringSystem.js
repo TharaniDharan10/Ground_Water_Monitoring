@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { LineChart, Line, BarChart, Bar, AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell, RadialBarChart, RadialBar } from 'recharts';
-import { AlertCircle, Droplet, Activity, Map, Bell, TrendingUp, TrendingDown, Settings, Users, FileText, Database, Zap, Globe, Shield, Eye, ChevronDown, ChevronRight, Calendar, Filter, Download, RefreshCw, Info, CheckCircle, AlertTriangle, XCircle, BarChart3, MapPin, Waves, CloudRain, Home, Menu, X, Search, ChevronUp } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { Line, BarChart, Bar, AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell, RadialBarChart, RadialBar } from 'recharts';
+import { Droplet, Activity, Bell, TrendingUp, TrendingDown, Settings, FileText, Database, Globe, Shield, Calendar, Download, RefreshCw, Info, CheckCircle, AlertTriangle, XCircle, BarChart3, MapPin, Waves,  Home, Menu, X, Search} from 'lucide-react';
 
 const GroundwaterMonitoringSystem = () => {
   const [activeTab, setActiveTab] = useState('dashboard');
