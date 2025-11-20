@@ -7,7 +7,7 @@ const GroundwaterMonitoringSystem = () => {
   const [selectedStation, setSelectedStation] = useState(null);
   const [timeRange, setTimeRange] = useState('24h');
   const [alerts, setAlerts] = useState([]);
-  const [sustainabilityIndex, setSustainabilityIndex] = useState(72);
+  const [sustainabilityIndex] = useState(72);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedRegion, setSelectedRegion] = useState('all');
